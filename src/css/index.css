@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(157, 157, 157);
+    min-width: 100%;
+    min-height: 60px;
+    align-items: center;
+}
+
+.companyName{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.login img{
+    width: 40px;
+    height: 40px;
+}
+
+.searchbar img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    
+}
+
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.slider{
+    margin-top: 15px;
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+}
